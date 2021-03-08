@@ -4,7 +4,7 @@
 
 # Self-supervised point set local descriptors for point cloud registration. 
 
-![pipeline](docs/pipeline.pdf)
+![pipeline](https://github.com/STAR-Center/selfSupervisedDescriptor/blob/master/docs/pipeline.jpg)
 
 Yuan, Y., Borrmann, D., Hou, J., Ma, Y., Nüchter, A., & Schwertfeger, S. (2021). Self-supervised point set local descriptors for point cloud registration. Sensors, 21(2), 486.
 
