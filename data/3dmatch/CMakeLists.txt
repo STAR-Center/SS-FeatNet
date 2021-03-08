@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+project(MY_GRAND_PROJECT)
+set (CMAKE_CXX_STANDARD 11)
+set(CMAKE_BUILD_TYPE Debug)
+find_package(PCL 1.7 REQUIRED)# COMPONENTS common io)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+add_executable(ply2bin ply2bin.cpp)
+
+target_link_libraries(ply2bin ${PCL_LIBRARIES})
