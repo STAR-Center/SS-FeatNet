@@ -2,7 +2,7 @@
 
 
 
-# Self-supervised point set local descriptors for point cloud registration. 
+# Self-supervised point set local descriptors for point cloud registration. (SS-FeatNet)
 
 ![pipeline](https://github.com/STAR-Center/selfSupervisedDescriptor/blob/master/docs/pipeline.jpg)
 
